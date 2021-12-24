@@ -93,3 +93,4 @@ cask "qlimagesize"
 cask "suspicious-package"
 cask "quicklookase"
 cask "qlvideo"
+mas "Xcode", id: 497799835
