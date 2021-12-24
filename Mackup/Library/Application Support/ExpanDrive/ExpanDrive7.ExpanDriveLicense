@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Signature</key>
+	<data>
+	FGqwO/9YYY4NlXuGtdKeslFMA4GxBmXTtBU132byFw0Hp55TaxVKAvLW5L4LN9rGUO9d
+	Vf+BBS9vy/S0j0ofj/Or9JR1fEjWl0PXYLHMDMQy29CaZdf9IjSfxOaHIQScJZ0gJIia
+	wLCK2+xPBxK3Kz4U3gr1gRWkJVWSBo0kAt0=
+	</data>
+	<key>expandrive_version</key>
+	<string>7</string>
+	<key>license_version</key>
+	<string>5</string>
+	<key>name</key>
+	<string>Maximilian Hoheiser</string>
+	<key>product_code</key>
+	<string>Mac</string>
+	<key>version</key>
+	<string>6</string>
+</dict>
+</plist>

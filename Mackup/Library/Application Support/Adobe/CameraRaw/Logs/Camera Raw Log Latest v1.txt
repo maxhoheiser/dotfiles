@@ -1,0 +1,573 @@
+cr_sdk_initialize: Adobe Photoshop Camera Raw 13.1 (Macintosh), version 13.1x658, 64-bit, Release
+gDNGMaxSIMD: 3
+Memory allocator: baseline (cr_memory_allocator)
+TBB threading: no
+PatchMatch initialized (version 5.0.0.0). Using 12 threads.
+OS: 10.16
+CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+MPProcessorCount (hyperthreading = false): 6
+MPProcessorCount (hyperthreading = true): 12
+MPThreadCount: 12
+std::thread::hardware_concurrency: 12
+AVX support: yes
+AVX2 support: yes
+AVX512 support: no
+System physical RAM: 32 GB
+Initialize GPU system
+Read GPU config
+Safe load GPU
+Loaded GPU system: Metal
+GPU primary driver version: 10.16.0
+GPU device count: 1
+GPU device names: AMD Radeon Pro 5300M
+GPU3 allow list: yes
+GPU3 deny list: no
+GPU3 prev digest: 1B0C767E6FE96B6A2E38BE5A61E33D3E
+GPU3 new digest: 1B0C767E6FE96B6A2E38BE5A61E33D3E
+Need to run gpu self tests : False.
+GPU Init Status (part 1): I2_GPU2
+GPU3 Hard Status Result (part 1): unknown
+GPU3 Soft Status Result (part 1): success
+AMD Radeon Pro 5300M: Building compute pipeline state (1/268)
+MaxTotalThreadsPerThreadGroup: TestNOPCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (2/268)
+MaxTotalThreadsPerThreadGroup: TestDoRenderCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (3/268)
+MaxTotalThreadsPerThreadGroup: TestComputeCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (4/268)
+MaxTotalThreadsPerThreadGroup: TestComputeSpeedCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (5/268)
+MaxTotalThreadsPerThreadGroup: TestMarkTip32Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (6/268)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufInPlace_2D_R32FloatCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (7/268)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufPingPong_2D_R32FloatCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (8/268)
+MaxTotalThreadsPerThreadGroup: TestShader1_TexPingPong_2DCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (9/268)
+Intel Compiler: no
+MaxTotalThreadsPerThreadGroup: Test1dFunctionsCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (10/268)
+MaxTotalThreadsPerThreadGroup: MaskRenderComboCompute,320,320
+AMD Radeon Pro 5300M: Building compute pipeline state (11/268)
+MaxTotalThreadsPerThreadGroup: LocalCorrectionCompositeCompute,384,384
+AMD Radeon Pro 5300M: Building compute pipeline state (12/268)
+MaxTotalThreadsPerThreadGroup: AutoLateralCAWarpTransformCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (13/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (14/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (15/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (16/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius4Compute,704,704
+AMD Radeon Pro 5300M: Building compute pipeline state (17/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (18/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius6Compute,704,704
+AMD Radeon Pro 5300M: Building compute pipeline state (19/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (20/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (21/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius3Compute,768,768
+AMD Radeon Pro 5300M: Building compute pipeline state (22/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius4Compute,704,704
+AMD Radeon Pro 5300M: Building compute pipeline state (23/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius5Compute,576,576
+AMD Radeon Pro 5300M: Building compute pipeline state (24/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius6Compute,448,448
+AMD Radeon Pro 5300M: Building compute pipeline state (25/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (26/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius2Compute,576,576
+AMD Radeon Pro 5300M: Building compute pipeline state (27/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (28/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius4Compute,576,576
+AMD Radeon Pro 5300M: Building compute pipeline state (29/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (30/268)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius6Compute,896,896
+AMD Radeon Pro 5300M: Building compute pipeline state (31/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (32/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (33/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (34/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (35/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (36/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (37/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (38/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (39/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (40/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (41/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (42/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (43/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (44/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4RadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (45/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (46/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (47/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (48/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (49/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (50/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (51/268)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (52/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (53/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (54/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (55/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (56/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (57/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (58/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (59/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (60/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (61/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (62/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (63/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (64/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (65/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (66/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (67/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (68/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (69/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (70/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (71/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (72/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (73/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (74/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (75/268)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (76/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (77/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (78/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (79/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (80/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (81/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (82/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (83/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (84/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (85/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (86/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (87/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (88/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (89/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (90/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (91/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNMovingAverageCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (92/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (93/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (94/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (95/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (96/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (97/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (98/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (99/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (100/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (101/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (102/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (103/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (104/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (105/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (106/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (107/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNMovingAverageCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (108/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (109/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (110/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (111/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (112/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (113/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (114/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (115/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (116/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (117/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (118/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (119/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (120/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (121/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (122/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (123/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (124/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (125/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (126/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (127/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (128/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius5Compute,896,896
+AMD Radeon Pro 5300M: Building compute pipeline state (129/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius6Compute,896,896
+AMD Radeon Pro 5300M: Building compute pipeline state (130/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (131/268)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (132/268)
+MaxTotalThreadsPerThreadGroup: Copy1PlaneIn4DoublePlaneTextureToTextureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (133/268)
+MaxTotalThreadsPerThreadGroup: Copy1PlaneIn4TextureToTextureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (134/268)
+MaxTotalThreadsPerThreadGroup: Copy2PlaneTextureTo4PlaneTextureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (135/268)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16sToTexture32Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (136/268)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16uToTexture32Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (137/268)
+MaxTotalThreadsPerThreadGroup: CopyBuffer32ToTexture32Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (138/268)
+MaxTotalThreadsPerThreadGroup: CopyBufferToBufferCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (139/268)
+MaxTotalThreadsPerThreadGroup: CopyBufferToTextureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (140/268)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (141/268)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithDitherCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (142/268)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithEdgeOptionCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (143/268)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithPaddingCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (144/268)
+MaxTotalThreadsPerThreadGroup: DefringeCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (145/268)
+MaxTotalThreadsPerThreadGroup: DefringeBlendBlurNonBlurredCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (146/268)
+MaxTotalThreadsPerThreadGroup: DefringeCompositeMaskCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (147/268)
+MaxTotalThreadsPerThreadGroup: DefringeMaskCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (148/268)
+MaxTotalThreadsPerThreadGroup: DefringeMaxMaskCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (149/268)
+MaxTotalThreadsPerThreadGroup: DefringeMaxAcrossRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (150/268)
+MaxTotalThreadsPerThreadGroup: DefringeMaxDownRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (151/268)
+MaxTotalThreadsPerThreadGroup: DefringeMinMaskCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (152/268)
+MaxTotalThreadsPerThreadGroup: DefringeMultiplyMaskCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (153/268)
+MaxTotalThreadsPerThreadGroup: DehazeDarkChannelCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (154/268)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (155/268)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (156/268)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (157/268)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius4Compute,704,704
+AMD Radeon Pro 5300M: Building compute pipeline state (158/268)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (159/268)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (160/268)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneAcrossPlusDarkChannelRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (161/268)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneDownPlusPreprocessRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (162/268)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (163/268)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendLocalCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (164/268)
+MaxTotalThreadsPerThreadGroup: DenoiseBlendEdgesCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (165/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCopyLumAndColorCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (166/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (167/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (168/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (169/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (170/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (171/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (172/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (173/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (174/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (175/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (176/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (177/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (178/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (179/268)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (180/268)
+MaxTotalThreadsPerThreadGroup: DenoiseDeltaFindFeatureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (181/268)
+MaxTotalThreadsPerThreadGroup: DenoiseDiffuseEdgeMarkersCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (182/268)
+MaxTotalThreadsPerThreadGroup: DenoiseFindAndRemoveNoiseBlockCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (183/268)
+MaxTotalThreadsPerThreadGroup: DenoiseMakeDeltaCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (184/268)
+MaxTotalThreadsPerThreadGroup: DenoiseOptionKeyFeedbackCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (185/268)
+MaxTotalThreadsPerThreadGroup: DenoisePrelimEdgeDirectionCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (186/268)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildHpCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (187/268)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (188/268)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp3Compute,768,768
+AMD Radeon Pro 5300M: Building compute pipeline state (189/268)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (190/268)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithHpCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (191/268)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithoutHpCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (192/268)
+MaxTotalThreadsPerThreadGroup: DenoiseRank3x3PlusHpThresholdCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (193/268)
+MaxTotalThreadsPerThreadGroup: DenoiseRecordMaxBorderCompute,896,896
+AMD Radeon Pro 5300M: Building compute pipeline state (194/268)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineDeltasCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (195/268)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineRefEdgeDirectionsCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (196/268)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothEdgesCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (197/268)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothNonEdgeCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (198/268)
+MaxTotalThreadsPerThreadGroup: DrawLineOnTexCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (199/268)
+MaxTotalThreadsPerThreadGroup: FillBufferCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (200/268)
+MaxTotalThreadsPerThreadGroup: FillBuffer1PlaneCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (201/268)
+MaxTotalThreadsPerThreadGroup: FillTextureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (202/268)
+MaxTotalThreadsPerThreadGroup: OverlayGrainCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (203/268)
+MaxTotalThreadsPerThreadGroup: Histogram1PlaneCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (204/268)
+MaxTotalThreadsPerThreadGroup: Histogram4PlaneCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (205/268)
+MaxTotalThreadsPerThreadGroup: LocalContrastYCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (206/268)
+MaxTotalThreadsPerThreadGroup: ManualDistortionTransformCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (207/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (208/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (209/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (210/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (211/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (212/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (213/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurAcrossRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (214/268)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurDownAndBlendRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (215/268)
+MaxTotalThreadsPerThreadGroup: MoireCombine3Plane1PlaneCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (216/268)
+MaxTotalThreadsPerThreadGroup: PerspectiveTransformCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (217/268)
+MaxTotalThreadsPerThreadGroup: RadialTableWarpTransformCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (218/268)
+MaxTotalThreadsPerThreadGroup: ReorientTextureCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (219/268)
+MaxTotalThreadsPerThreadGroup: Sample1PlaneCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (220/268)
+MaxTotalThreadsPerThreadGroup: Sample4PlaneCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (221/268)
+MaxTotalThreadsPerThreadGroup: Sequence1TexCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (222/268)
+MaxTotalThreadsPerThreadGroup: Sequence2TexCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (223/268)
+MaxTotalThreadsPerThreadGroup: Sequence3TexCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (224/268)
+MaxTotalThreadsPerThreadGroup: Sequence4TexCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (225/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (226/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (227/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (228/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (229/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (230/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (231/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4RadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (232/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (233/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (234/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (235/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (236/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (237/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius6Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (238/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadiusNCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (239/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (240/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (241/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius3Compute,768,768
+AMD Radeon Pro 5300M: Building compute pipeline state (242/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius4Compute,704,704
+AMD Radeon Pro 5300M: Building compute pipeline state (243/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius5Compute,576,576
+AMD Radeon Pro 5300M: Building compute pipeline state (244/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius6Compute,448,448
+AMD Radeon Pro 5300M: Building compute pipeline state (245/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (246/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius2Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (247/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius3Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (248/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius4Compute,704,704
+AMD Radeon Pro 5300M: Building compute pipeline state (249/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius5Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (250/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius6Compute,704,704
+AMD Radeon Pro 5300M: Building compute pipeline state (251/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlus1PlaneIn4Compute,768,768
+AMD Radeon Pro 5300M: Building compute pipeline state (252/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlusCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (253/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1Pass1PlaneIn4Radius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (254/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1PassRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (255/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3LensBlurCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (256/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1Pass1PlaneIn4Radius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (257/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1PassRadius1Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (258/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYGamma181PlaneIn4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (259/268)
+MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYGamma18Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (260/268)
+MaxTotalThreadsPerThreadGroup: SkewHCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (261/268)
+MaxTotalThreadsPerThreadGroup: SkewVCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (262/268)
+MaxTotalThreadsPerThreadGroup: SolidFrameTexCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (263/268)
+MaxTotalThreadsPerThreadGroup: TextureAffinePlusCompositeCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (264/268)
+MaxTotalThreadsPerThreadGroup: TextureEncodeLogYCCCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (265/268)
+MaxTotalThreadsPerThreadGroup: WarpCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (266/268)
+MaxTotalThreadsPerThreadGroup: Warp4X4Compute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (267/268)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferentCompute,1024,1024
+AMD Radeon Pro 5300M: Building compute pipeline state (268/268)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferent4X4Compute,1024,1024
+AMD Radeon Pro 5300M: Finished building compute pipeline states.
+GPU Init Status (part 2): I4_GPU3
+GPU3 Hard Status Result (part 2): success
+GPU3 Soft Status Result (part 2): success
+Terminate GPU system
+cr_sdk_terminate
