@@ -80,4 +80,5 @@
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
     "git.ignoreRebaseWarning": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
 }
