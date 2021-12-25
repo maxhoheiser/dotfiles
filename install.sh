@@ -40,6 +40,7 @@ zplug install
 nvm install node
 nvm install 14
 nvm use node
+npm install -g pnpm
 
 # Symlink the Mackup config file to the home directory
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
@@ -47,5 +48,5 @@ mackup restore
 
 
 # Set macOS preferences - we will run this last because this will reload the shell
-/bin/bash $DOTFILES/macos/dock.sh
-/bin/bash $DOTFILES/macos/system.sh
+#/bin/bash $DOTFILES/macos/dock.sh
+#/bin/bash $DOTFILES/macos/system.sh
