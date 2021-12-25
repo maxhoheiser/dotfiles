@@ -25,8 +25,11 @@ sourcetreebulkmerge.premerge=False
 sourcetreemerge.executable=/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh
 sourcetreebulkmerge.binary=True
 [ui]
-ignore=/Users/max/.hgignore_global
+ignore=/Users/maximilian-hoheiser/.hgignore_global
 commitsubrepos=no
+username=Max Hoheiser <max.hoheiser@gmail.com>
 [extdiff]
 cmd.sourcetreediff=opendiff
 opts.sourcetreediff=
+[committemplate]
+desc=/Users/maximilian-hoheiser/.stCommitMsg

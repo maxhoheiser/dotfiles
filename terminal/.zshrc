@@ -13,7 +13,7 @@ fi
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+# export ZSH="$HOME/.oh-my-zsh"
 
 # Enable completions
 autoload -Uz compinit && compinit
@@ -82,8 +82,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # see 'man strftime' for details.
 HIST_STAMPS="dd/mm/yyyy"
 
+
+
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$DOTFILES
+#ZSH_CUSTOM=$DOTFILES
+
+
+
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
