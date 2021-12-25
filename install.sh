@@ -1,12 +1,17 @@
 #!/bin/sh
-DOTFILES = $HOME/.dotfiles
+DOTFILES="$HOME/.dotfiles"
 
 echo "Setting up your Mac..."
 
+# Check for ZSH and install if we dont have it
+
+
 # Check for Oh My Zsh and install if we don't have it
-if test ! $(which omz); then
+if test ! $(which zplug); then
   /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
 fi
+
+/bin/sh -c "$(curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh)"
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
@@ -21,32 +26,24 @@ rm -rf $HOME/.zshrc
 ln -s $DOTFILES/terminal/.zshrc $HOME/.zshrc
 rm -rf $HOME/.bashrc
 ln -s $DOTFILES/terminal/.bashrc $HOME/.bashrc
+touch $ZPLUG_LOADFILE
 
 # Update Homebrew recipes
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
-brew bundle --file $DOTFILES/Brewfile
+# brew bundle --file $DOTFILES/Brewfile
+zplug install
 
+# Install node modules
+nvm install node
+nvm install 14
+nvm use node
 
 # Symlink the Mackup config file to the home directory
 ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
 mackup restore
-# read -p "Is Google Drive Sync ready & 4.3 Backup/Config/Mackup there (y/n)? " answer
-# case ${answer:0:1} in
-#     y|Y )
-#         if [[-d "$HOME/Google Drive/4.3 Backup/Config/Mackup"
-#           mackup restore
-#         else
-#           read -p "Please enter Google Drive Path" google_path
-#           if [[-d "$HOME/Google Drive/4.3 Backup/Config/Mackup"
-#             mackup restore
-#     ;;
-#     * )
-#         echo Please get Google Drive Sync Ready
-#     ;;
-
 
 
 # Set macOS preferences - we will run this last because this will reload the shell
