@@ -90,9 +90,33 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z github history macos pip vscode)
 
-source $ZSH/oh-my-zsh.sh
+# Oh-my-zsh
+# plugins=(git z github history macos pip vscode)
+#
+# source $ZSH/oh-my-zsh.sh
+
+# Zplug
+# Initialize plugins
+source ~/.zplug/init.zsh
+# Register your plugins here. E.g:
+#zplug "woefe/wbase.zsh"
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-history-substring-search"
+zplug "romkatv/powerlevel10k", as:theme, depth:1
+
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/github", from:oh-my-zsh
+zplug "plugins/sudo", from:oh-my-zsh
+zplug "plugins/z", from:oh-my-zsh
+zplug "plugins/macos", from:oh-my-zsh
+zplug "plugins/pip", from:oh-my-zsh
+zplug "plugins/vscode", from:oh-my-zsh
+
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+zplug load
 
 # User configuration
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
@@ -121,7 +145,7 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source $ZSH/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source $ZSH/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.bash_profile
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
