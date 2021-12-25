@@ -37,6 +37,7 @@ zplug install
 nvm install node
 nvm install 14
 nvm use node
+npm instal -g npm
 npm install -g pnpm
 
 # Symlink the Mackup config file to the home directory
