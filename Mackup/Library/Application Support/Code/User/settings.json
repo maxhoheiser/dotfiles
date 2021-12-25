@@ -1,84 +1,76 @@
 {
-    "window.menuBarVisibility": "default",
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-    "python.defaultInterpreterPath": "C:\\Users\\max\\anaconda3\\envs\\maxland\\python.exe",
-    "kite.showWelcomeNotificationOnStartup": false,
-    "sync.autoDownload": true,
-    "sync.autoUpload": true,
-    "sync.gist": "ad0ccf4cbc4c883b618d6bae7cb2c395",
-    "files.autoSave": "afterDelay",
-    "terminal.integrated.inheritEnv": false,
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "jupyter.askForKernelRestart": false,
-    "jupyter.widgetScriptSources": [
-        "jsdelivr.com",
-        "unpkg.com"
-    ],
-    "jupyter.sendSelectionToInteractiveWindow": true,
-    "jupyter.interactiveWindowMode": "perFile",
-    "python.languageServer": "Pylance",
-    "python.pythonPath": "C:\\Users\\max\\anaconda3\\envs\\maxland\\python.exe",
-    "latex-workshop.latex.autoBuild.run": "never",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+  "window.menuBarVisibility": "default",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "python.defaultInterpreterPath": "C:\\Users\\max\\anaconda3\\envs\\maxland\\python.exe",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.gist": "ad0ccf4cbc4c883b618d6bae7cb2c395",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "jupyter.askForKernelRestart": false,
+  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  "jupyter.interactiveWindowMode": "perFile",
+  "python.languageServer": "Pylance",
+  "python.pythonPath": "C:\\Users\\max\\anaconda3\\envs\\maxland\\python.exe",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "todohighlight.isEnable": true,
+  "projectManager.git.baseFolders": ["/Users/max/Google Drive/3.1 Code Repository"],
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
     },
-    "todohighlight.isEnable": true,
-    "projectManager.git.baseFolders": [
-        "/Users/max/Google Drive/3.1 Code Repository"
-    ],
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.minimap.enabled": false,
-    "[json]": {
-
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace",
-        "gitlens.codeLens.scopes": [
-            "document"
-        ]
-    },
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [
-        "--max-line-length=200"
-    ],
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
-    },
-    "editor.inlineSuggest.enabled": true,
-    "jupyter.jupyterServerType": "local",
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": true,
-        "markdown": true
-    },
-    "security.workspace.trust.enabled": false,
-    "workbench.colorTheme": "Visual Studio Dark",
-    "redhat.telemetry.enabled": true,
-    "vs-kubernetes": {
-        "vscode-kubernetes.helm-path.mac": "/Users/maximilian-hoheiser/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-        "vscode-kubernetes.kubectl-path.mac": "/Users/maximilian-hoheiser/.vs-kubernetes/tools/kubectl/kubectl",
-        "vscode-kubernetes.minikube-path.mac": "/Users/maximilian-hoheiser/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
-    },
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "editor.formatOnSave": true,
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.showSuggestionsAsSnippets": true,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.startupEditor": "none",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.printWidth": 120,
-    "debug.internalConsoleOptions": "neverOpen",
-    "explorer.confirmDragAndDrop": false,
-    "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true,
-    "git.ignoreRebaseWarning": true,
-    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length=200"],
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "jupyter.jupyterServerType": "local",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+  "security.workspace.trust.enabled": false,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "redhat.telemetry.enabled": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.mac": "/Users/maximilian-hoheiser/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vscode-kubernetes.kubectl-path.mac": "/Users/maximilian-hoheiser/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.mac": "/Users/maximilian-hoheiser/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 120,
+  "debug.internalConsoleOptions": "neverOpen",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.ignoreRebaseWarning": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false
 }
