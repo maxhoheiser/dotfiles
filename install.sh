@@ -32,7 +32,7 @@ brew update
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
-# brew bundle --file $DOTFILES/Brewfile
+brew bundle --file $DOTFILES/Brewfile
 zplug install
 
 # Install node modules
@@ -41,6 +41,7 @@ nvm install 14
 nvm use node
 npm instal -g npm
 npm install -g pnpm
+npm install -g cypress
 
 # Install anaconda envs and python packages
 conda update -n base -c defaults conda
