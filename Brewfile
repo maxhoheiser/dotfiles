@@ -47,7 +47,7 @@ brew "python@3.9" # Interpreted, interactive, object-oriented programming langua
 # Apps
 mas "Amphetamine", id: 937984704
 mas "BetterSnapTool", id: 417375580
-mas "LiquidText", id: 922765270
+#mas "LiquidText", id: 922765270
 mas "pomodorome", id: 1484801884
 cask "bettertouchtool"
 cask "brave-browser"
