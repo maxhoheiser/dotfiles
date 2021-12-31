@@ -212,6 +212,3 @@ source $(brew --prefix nvm)/nvm.sh
 # JAVA
 #export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-
-
-
