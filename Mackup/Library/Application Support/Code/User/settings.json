@@ -14,7 +14,10 @@
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
   "jupyter.askForKernelRestart": false,
-  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+  "jupyter.widgetScriptSources": [
+    "jsdelivr.com",
+    "unpkg.com"
+  ],
   "jupyter.sendSelectionToInteractiveWindow": true,
   "jupyter.interactiveWindowMode": "perFile",
   "python.languageServer": "Pylance",
@@ -71,6 +74,7 @@
   "explorer.confirmDragAndDrop": false,
   "workbench.iconTheme": "vscode-icons",
   "vsicons.dontShowNewVersionMessage": true,
-  "git.ignoreRebaseWarning": true,
-  "bracket-pair-colorizer-2.depreciation-notice": false
+"git.ignoreRebaseWarning": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
