@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "federico-terzi/espanso"
 
 # Binaries
 brew "ffmpeg" # Play, record, convert, and stream audio and video
@@ -35,6 +36,8 @@ cask "transmission"
 cask "vlc"
 brew "mackup"
 cask "anaconda"
+brew "espanso"
+cask "flux"
 
 # Development
 brew "git" # Distributed revision control system
