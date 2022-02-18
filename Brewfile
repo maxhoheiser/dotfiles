@@ -37,7 +37,7 @@ cask "vlc"
 brew "mackup"
 cask "anaconda"
 brew "espanso"
-cask "flux"
+# cask "flux"
 
 # Development
 brew "git" # Distributed revision control system
@@ -46,6 +46,7 @@ brew "nvm" # Manage multiple Node.js versions
 brew "v8" # Google's JavaScript engine
 brew "openjdk" # Development kit for the Java programming language
 brew "python@3.9" # Interpreted, interactive, object-oriented programming language
+brew "pandoc"
 
 # Apps
 mas "Amphetamine", id: 937984704
@@ -62,6 +63,8 @@ cask "obsidian"
 cask "zotero"
 cask "cakebrew" # GUI app for Homebrew
 mas "The Unarchiver", id: 425424353
+cask "blackhole-16ch"
+
 
 mas "Tasks", id: 1502903102
 mas "TextSniper", id: 1528890965
@@ -76,6 +79,7 @@ cask 'discord'
 mas "Spark", id: 1176895641
 cask 'signal'
 cask 'zoom'
+cask "microsoft-teams"
 
 cask 'docker'
 brew "docker-compose" # Isolated development environments using Docker
@@ -92,6 +96,9 @@ cask "typora"
 cask "intellij-idea" # Java IDE by JetBrains
 cask "pycharm" # Python InteliJe IDE
 mas "Xcode", id: 497799835
+cask "google-cloud-sdk"
+
+cask "adobe-creative-cloud"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 cask "qlcolorcode"
