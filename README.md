@@ -1,8 +1,25 @@
 # dotfiles
 
-clone into `$HOME/.dotfiles`
+My way to a clean and fresh MacOS setup, with all the tools I need.
+
+## Supports:
+
+- ZSH instead of bash
+- p10k ZSH theme
+- zplug for ZSH plugins
+- ZSH yntax-highlighting, auto-completion etc.
+
+- Homebrew 🍺 for package management
+- Brew bundle - to install all packages
+- Mackup - to save and restore app configurations
+- MAS - to intall apple app store packages from brew
+
+- Anaconda
+- NVM & NPM
+
 
 ## First installation:
+clone into `$HOME/.dotfiles`
 
 ### customize to your liking:
 
